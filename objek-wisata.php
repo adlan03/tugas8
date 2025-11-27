@@ -1,4 +1,5 @@
 <?php
+include 'session_check.php';
 // objek-wisata.php
 ?>
 <!DOCTYPE html>
@@ -26,7 +27,7 @@
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="tabel-makanan.php">Makanan Khas</a></li>
                     <li><a href="objek-wisata.php">Objek Wisata</a></li>
-                    <li><a href="#">Keluar</a></li>
+                    <li><a href="logout.php">Keluar</a></li>
                 </ul>
             </nav>
         </aside>

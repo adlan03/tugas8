@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
+<?php include 'session_check.php'; ?>
+<head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Daftar Makanan Khas Sulawesi Selatan</title> 
@@ -18,11 +19,11 @@
                 <ul> 
                     <li><a href=#>Dashboard</a></li> 
                     <li><a href="tabel-makanan.php">Makanan Khas</a></li> 
-                    <li><a href="objek-wisata.php">Objek Wisata</a></li> 
-                    <li><a href=#>Keluar</a></li> 
-                </ul> 
-            </nav> 
-        </aside> 
+                    <li><a href="objek-wisata.php">Objek Wisata</a></li>
+                    <li><a href="logout.php">Keluar</a></li>
+                </ul>
+            </nav>
+        </aside>
  
         <!-- Konten Utama --> 
         <section class="content"> 

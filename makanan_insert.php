@@ -1,5 +1,6 @@
-<?php 
-    include "config.php"; 
+<?php
+    include 'session_check.php';
+    include "config.php";
  
     $foto = $_FILES['foto']['name']; 
     $lokasi = $_FILES['foto']['tmp_name']; 

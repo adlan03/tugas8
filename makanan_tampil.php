@@ -9,7 +9,8 @@
         </tr>
     </thead>
     <tbody>
-        <?php
+<?php
+        include 'session_check.php';
         include "config.php";
 
         $query = mysqli_query($conn, "SELECT * FROM makanan ORDER BY id_makanan DESC");

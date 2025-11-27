@@ -1,4 +1,5 @@
 <?php
+include 'session_check.php';
 include "config.php";
 
 $query = mysqli_query($conn, "SELECT * FROM objekwisata ORDER BY id_objek DESC");
@@ -33,7 +34,7 @@ $query = mysqli_query($conn, "SELECT * FROM objekwisata ORDER BY id_objek DESC")
                 </td>
                 <td><?php echo $data['deskripsi']; ?></td>
                 <td class="aksi">
-                    <!-- hapus -->
+                    <a class="btn-detail" href="objekwisata_edit.php?id=<?php echo $data['id_objek']; ?>">Edit</a>
                     <a class="btn-detail" onclick="return confirm('Yakin ingin menghapus?')" href="objekwisata_hapus.php?id=<?php echo $data['id_objek']; ?>&foto=<?php echo $data['foto']; ?>">Hapus</a>
                 </td>
             </tr>

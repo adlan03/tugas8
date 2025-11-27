@@ -1,4 +1,5 @@
 <?php
+include 'session_check.php';
 include "config.php";
 
 $nama = mysqli_real_escape_string($conn, $_POST['nama_objek']);

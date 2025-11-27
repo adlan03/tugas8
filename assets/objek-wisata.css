@@ -1,0 +1,64 @@
+/* Wrapper agar tabel berada di tengah */
+.table-box {
+    max-width: 900px;
+    margin: 10px auto 40px;
+    background: #fff;
+    border: 1px solid #e1e7ef;
+}
+
+/* Header tabel biru lembut */
+.table-box thead th {
+    background-color: #dbe8ff;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Style dasar tabel */
+.table-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-box td, 
+.table-box th {
+    padding: 12px 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e6eef7;
+}
+
+/* Kolom nomor */
+.table-box td.no {
+    width: 50px;
+    text-align: center;
+}
+
+/* Kolom aksi */
+.table-box td.aksi {
+    width: 90px;
+    text-align: center;
+}
+
+/* Style gambar objek wisata */
+.table-box img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* Tombol hapus/detail */
+.btn-detail {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #12b4e8;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-detail:hover {
+    background: #0a99c9;
+}
